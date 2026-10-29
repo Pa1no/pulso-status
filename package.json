@@ -1,0 +1,33 @@
+{
+  "name": "pulso-status",
+  "version": "1.0.0",
+  "description": "Monitor de disponibilidade com página de status pública utilizando Node.js, TypeScript e PostgreSQL.",
+  "private": "true",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pa1no/pulso-status.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pa1no/pulso-status/issues"
+  },
+  "homepage": "https://github.com/Pa1no/pulso-status#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
