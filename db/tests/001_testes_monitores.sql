@@ -30,3 +30,9 @@ VALUES ('https://outrosite.com');
 SELECT * FROM monitores WHERE nome ILIKE 'teste%';
 DELETE FROM monitores
 WHERE nome ILIKE 'teste%';
+
+-- teste para conferir a quantidade de dados
+
+SELECT COUNT(*) FROM incidentes;
+SELECT COUNT(*) FROM resultados;
+SELECT COUNT(*) FROM monitores;

@@ -1,16 +1,16 @@
 node_modules/
-.next/
 CLAUDE.md
 
 # build
 dist/
 
 # logs
-logs
+logs/
 *.log
+coverage/
 
 # editor
-vscode/
+.vscode/
 .DS_Store
 
 # environment
@@ -22,5 +22,5 @@ vscode/
 *.tsbuildinfo
 
 # Next.js build output
-.next
-out
+.next/
+out/

@@ -23,3 +23,9 @@ WHERE monitor_id = 9;
 
 DELETE FROM monitores
 WHERE id = 9;
+
+-- teste para conferir a quantidade de dados
+
+SELECT COUNT(*) FROM incidentes;
+SELECT COUNT(*) FROM resultados;
+SELECT COUNT(*) FROM monitores;

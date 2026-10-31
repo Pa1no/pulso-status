@@ -40,3 +40,9 @@ WHERE monitor_id IN (
 
 DELETE FROM monitores
 WHERE nome ILIKE 'teste%';
+
+-- teste para conferir a quantidade de dados
+
+SELECT COUNT(*) FROM incidentes;
+SELECT COUNT(*) FROM resultados;
+SELECT COUNT(*) FROM monitores;

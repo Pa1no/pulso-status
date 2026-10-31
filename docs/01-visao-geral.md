@@ -4,14 +4,17 @@
 Ele tem o intuito de monitorar se os serviços de uma aplicação estão funcionando corretamente, relatando qualquer tipo de alteração ou desvio, informando o tempo de queda e qual o tipo de incidente no serviço.
 
 ## Para quem?
-Desenvolvedores e Engenheiros de Software, equipes de DevOps e gerentes de projeto que dependem da plataforma para manter tudo funcionando, visando deixar como uma maneira de transparência sobre o funcionamento e saúde técnica.
+Desenvolvedores autônomos que gerenciam sites, lojas ou sistemas web e precisam garantir que todos os serviços estejam ativos e funcionando, porém não conseguem entrar a todo momento para verificar se tudo está ocorrendo como o esperado. Assim, o Pulso mantém a transparência para quem vê a página de monitoramento, sendo esse público os clientes.
 
 ## 5 coisas que eu copiaria de um pulso já existente (githubstatus.com por exemplo)
 1 - Linha do tempo com "sticks" para mostrar o funcionamento durante os dias
-2 - histórico do tempo de atividade
+2 - histórico do tempo de atividade com os dias disponíveis para visualização
 3 - histórico de incidentes
 4 - relato sobre os incidentes
-5 - tempo de degradação/incidência no serviço afetado
+5 - duração da degradação/incidência no serviço afetado
 
-## 2 coisas que eu faria alterações
-Sendo um site com um propósito único, não vejo tópicos para fazer alterações, pois tudo cumpre exatamente com o seu trabalho sem deixar faltar transparência e informação.
+## 2 coisas que eu faria diferente
+1 - Ao invés de mostrar poucos detalhes sobre o incidente, um agente humano do Pulso irá investigá-los e detalhá-los 
+    sem expor dados sensíveis (URLs sensíveis, endpoints internos, detalhes que compartilham senhas, chaves, nomes internos, etc) como parte das informações fornecidas, pois isso traz mais transparência com os usuários
+2 - Em vez de apenas mostrar quais páginas estão sendo relatadas pelo Pulso, o mesmo irá dar a possibilidade do usuário entrar nas
+    aplicações pelo próprio monitor sem precisar sair dele para conferir se o serviço que ele procura está instável ou saudável
