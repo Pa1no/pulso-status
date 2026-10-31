@@ -6,7 +6,7 @@ CREATE TABLE resultados (
 	tempo_resposta_ms INT,
 	monitor_id INT                  NOT NULL,
 
-	CONSTRAINT fk_monitor 
+	CONSTRAINT fk_resultados_monitor 
 		FOREIGN KEY (monitor_id) 
 		REFERENCES monitores(id)
 		ON DELETE RESTRICT,
