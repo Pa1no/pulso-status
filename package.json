@@ -11,7 +11,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc -b",
+    "dev:worker": "tsx --env-file:.env apps/worker/src/index.ts",
+    "dev:api": "tsx --env-file:.env apps/api/src/index.ts"
   },
   "repository": {
     "type": "git",

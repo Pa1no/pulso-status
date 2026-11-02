@@ -1,6 +1,7 @@
 {
-  "name": "worker",
+  "name": "@pulso/worker",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +10,7 @@
   "keywords": [],
   "type": "module",
   "dependencies": {
+    "@pulso/shared": "^1.0.0",
     "pg": "^8.23.1"
   },
   "devDependencies": {
