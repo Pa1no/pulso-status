@@ -9,12 +9,16 @@
   (padrão atual e mesmo estilo de import do front-end)
 - Express 5 como framework para o Node.js pelo gerenciamento automático do fluxo de erros assíncronos. Aviso: tutoriais
   antigos assumem versão 4
+- Constante com 'as const' em "shared", tipos derivados e validação com 'zod'
 
 ## Decisões estrutura
 
 ### 31/10
 - A implementação do Docker ficará para a fase 6 do projeto, sendo acrescentado depois de quase tudo ter sido concluído
 - Sem usuários até a Fase 6
+- Código × CHECK do banco: comentário nos dois lugares agora e teste automatizado na Fase 6.
+- Ausência de 'declaration' e 'sourceMap' enquanto não houver build
+- Acrescentar 'outDir' quando houver deploy
 
 ## Decisões PostgreSQL
 
